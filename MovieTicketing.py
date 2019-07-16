@@ -1,5 +1,5 @@
 class movie :
-    m = ['캡틴마블', '걸캅스', '엑시트']
+    m = ['캡틴마블', '걸캅스', '엑시트'] # 보고 싶은 영화 
     mtime = {'캡틴마블':['09:00', '13:00', '15:00', '17:00'],'걸캅스':['09:30', '13:30', '15:30', '17:30'],'엑시트':['10:00', '13:00', '15:00', '17:00']}
     
     def __init__(self, choice_movie_number):
@@ -255,7 +255,7 @@ if __name__ == '__main__':
         # 총 수입
         elif choice_menu == '3':
             cnt = 1
-            print(" 관리자 모드가 필요합니다. 패스워드를 입력해주세요.", end=' ')
+            print(" 관리자 모드가 필요합니다. 패스워드를 입력해주세요.", end=' ') # PW/goodjob8est
             admin_mode = input()
             while admin_mode != 'goodjob8est':
                 if cnt == 3:
